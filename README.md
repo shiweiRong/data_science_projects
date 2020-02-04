@@ -1,4 +1,4 @@
-# data_science_projects
+# Data Science Projects
 
 ## Movie Recommendation Engine Development in Apache Spark [link][1]
 
@@ -13,11 +13,25 @@ Worked on 138K+ transaction data from an e-commerce company and developed machin
 * Built logistic regression and random forest models, evaluated the models via 10-fold cross-validation and found optimal model parameters via grid search. 
 * Selected the best model based on the F1 score (0.67) and designed a real-time alert system to prevent fraudulent activities. 
 
+## Semantic Analysis for Youtube User Comments Dataset in Apache Spark                                                                           
+Built machine learning models in Spark to classify users based on their comments on Youtube videos. 
+* Preprocessed data by removing missing values and labeled part of users based on their comments. 
+* Processed movie comments via RegexTokenizer and Word2Vec in SparkML. 
+* Trained logistic regression, random forest and Gradient-Boosted Trees (GBTs) models and tuned hyper-parameters and selected the best model (ROC 0.955) based on 5-fold cross-validation. 
+* Extracted features with term frequency-inverse document frequency (TF-IDF) approach and trained unsupervised model latent Dirichlet allocation (LDA) to obtain important topics of target users. 
+
 ## Sales Data Analysis and Demand Forecasting [link][3]
 Worked on historical sales data and product information to develop a model to help a pharmacy store chain predict the future demand on different nutrition-related products. 
 * Performed exploratory data analysis and preprocessed data by removing duplicates, extracting new features from original data, encoding categorical features and binning numerical features. 
 * Built lasso regression (baseline) and random forest models for carry-over products (with historical sales data), evaluated the models via crossvalidation and found optimal model parameters via grid search. 
 * Developed a similarity-based model for new products (without sales data) by comparing the cosine similarity between new products and carryover products. 
+
+
+## Structured Streaming and Machine Learning for Credit Card Fraud Predictions in Apache Spark                                           
+Worked with a stream of transaction data to identify potential fraud hotspots in Apache Spark. 
+* Performed PCA transformation to reduce the dimensionality of raw data transactions with correlated variables. 
+* Built a machine learning pipeline with OneHotEncoder, VectorAssembler and Gradient-Boosted Trees (GBTs) using Spark MLlib. 
+* Evaluated the model with precision, recall and F1 score on streaming data. 
 
 [1]:  https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4149976063988086/2093161739916212/2021872520586646/latest.html "ALS"
 [3]: https://colab.research.google.com/drive/1jOAkoe1rdKBhjgyeuWcqtzb2HItFM_5z
