@@ -33,4 +33,4 @@ Worked with a stream of transaction data to identify potential fraud hotspots in
 
 [1]:  https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4149976063988086/2093161739916212/2021872520586646/latest.html "ALS"
 [3]: https://colab.research.google.com/drive/1jOAkoe1rdKBhjgyeuWcqtzb2HItFM_5z
-[4]: https://community.cloud.databricks.com/?o=4149976063988086#notebook/1393348256214161/command/1393348256214184
+[4]: https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4149976063988086/1393348256214161/2021872520586646/latest.html
